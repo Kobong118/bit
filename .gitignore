@@ -1,0 +1,42 @@
+# ===== Android Essentials =====
+*.iml
+.gradle/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.jks
+*.keystore
+
+# ===== Android Studio =====
+.idea/
+*.iml
+.DS_Store
+*.log
+
+# Rincian isi .idea/ yang aman di-ignore
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Optional: exclude Firebase/Crashlytics auto-generated
+crashlytics-build.properties
+fabric.properties
+
+# Jetpack Compose cache
+*.cache/
+
+# Unit test result
+*.xml
+
+# Others
+*.apk
+*.ap_
+
+# ===== Git settings =====
+*.orig
